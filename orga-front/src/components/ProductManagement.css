@@ -1,0 +1,92 @@
+/* Form Container */
+form {
+  max-width: 600px;
+  margin: 40px auto; /* Adds 40px space above the form */
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+} */
+
+/* Form Fields */
+form div {
+  margin-bottom: 15px;
+}
+
+/* Label Styling */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Input Styling */
+input[type="text"],
+input[type="number"],
+input[type="file"],
+textarea {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(136deg, #ffffff, );
+  padding: 1rem;
+  border: 1px solid #ddd;
+  /* outline: none; */
+}
+
+/* File Input Padding */
+input[type="file"] {
+  padding: 12px;
+}
+
+/* Error Styling for Inputs */
+input.error,
+textarea.error {
+  border: 1px solid rgb(37, 135, 81);
+}
+
+/* Button Styling */
+button {
+  padding: 10px 15px;
+  /* background-color: #D7C37A; /* Primary button color */
+  /* color: #1B8057; */ 
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+/* button:hover {
+  /* background-color: #3B7D52; Darker green on hover */
+/* }  */
+
+/* Pagination Button Styling */
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #4CAF50; /* Matches main button color */
+  color: #fff;
+  border: 2px solid #481E14;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* .pagination button:hover {
+  background-color: #65451F; /* Darker green on hover */
+/* } */ 

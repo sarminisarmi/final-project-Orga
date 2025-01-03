@@ -1,0 +1,8 @@
+// src/components/Button.js
+import React from 'react';
+
+const Button = ({ children }) => {
+  return <button className="button">{children}</button>;
+};
+
+export default Button; // Default export for Button

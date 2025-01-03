@@ -1,0 +1,284 @@
+/* CartPage.css
+
+/* General Page Styling */
+/* .cart-page {
+  background-color: #F5F5DC(180 89% 9%); /* Light Yellow */
+  /* color: #187d56; Dark Green
+  font-family: Arial, sans-serif;
+  padding: 20px;
+} */ 
+
+/* .cart-title {
+  text-align: center;
+  color: #148748; /* Dark Green */
+  /* font-size: 3.5rem; */
+  /* margin-bottom: 30px;
+} * */
+
+/* .cart-items-title {
+  color: #175f43; /* Green */
+  /* font-size: 1.8rem;
+  margin-bottom: 20px;
+} */ 
+
+/* Table Styling */
+/* .cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+} */
+
+/* .cart-table th, .cart-table td {
+  border: 1px solid #6bbd79; /* Beige */
+  /* padding: 15px;
+  text-align: center;
+} */ 
+
+/* .cart-table th {
+  background-color: #0e9554; /* Dark Green */
+  /* color: #FFF; /* White */
+  /* font-weight: bold; */
+/* } */
+
+/* .cart-table td {
+  background-color: #D9EAD3; /* Light Green (Complementing Beige) */
+/* } */
+
+/* Button Styling */
+/* button {
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+} */
+
+/* button:hover {
+  background-color: #D7C37A; /* Red */
+    /* color: #1B8057;
+} */
+ 
+/* .checkout-btn {
+  background-color: #D7C37A; /* Red */
+    /* color: #1B8057; /* Dark Green */
+  /* font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: block;
+  margin: 20px auto;
+} */ 
+
+/* .checkout-btn:hover {
+  background-color: #D7C37A; /* Red */
+    /* color: #1B8057;
+} */
+
+/* Cart Totals Styling */
+/* .cart-totals {
+  background-color: #F5F5DC; /* Beige */
+  /* padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+} */ 
+
+/* .cart-totals-title {
+  font-size: 1.5rem;
+  color: #2F4F4F; /* Dark Green */
+/* } */
+/* 
+.cart-subtotal, .cart-total { */
+  /* display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 1.2rem; */
+/* } */ 
+
+/* .cart-total b {
+  color: #108852; /* Dark Green */
+/* } */ 
+
+
+/* .Quantity {
+  width: 30px; /* Adjust size as needed */
+  /* height: 30px; /* Adjust size as needed */
+  /* font-size: 18px; /* Adjust size as needed */
+/* }  */
+
+/* .quantity-display {
+  margin: 0 5px; /* Spacing around the quantity display */
+  /* font-weight: bold; /* Makes quantity stand out */
+/* } */
+
+
+/* General Page Styling */
+.cart-page {
+  /* background-color: ; Light Yellow */
+  color: #765827; /* Dark Green */
+  font-family: Arial, sans-serif;
+  padding: 120px;
+}
+
+.cart-title {
+  text-align: center;
+  color: #765827; /* Dark Green */
+  font-size: 3.5rem;
+  margin-bottom: 30px;
+}
+
+.cart-items-title {
+  color: #65451F; /* Green */
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Table Styling */
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+
+.cart-table th, .cart-table td {
+  border: 1px solid #4CAF50; /* Beige */
+  padding: 15px;
+  text-align: center;
+}
+
+.cart-table th {
+  background-color: #4CAF50; /* Dark Green */
+  color: #fff; /* White */
+  font-weight: bold;
+}
+
+.cart-table td {
+  background-color: #fff; /* Light Green (Complementing Beige) */
+}
+
+/* Button Styling */
+button {
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4CAF50; /* Beige */
+  color:#fff ;
+}
+
+.checkout-btn {
+  background-color: #4CAF50; /* Beige */
+  color: #fff; /* Dark Green */
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: 2px solid #388E3C;
+  border-radius: 5px;
+  display: block;
+  margin: 20px auto;
+}
+
+.checkout-btn:hover {
+  background-color: #4CAF50; 
+  /* color: #1B8057; */
+}
+
+/* Cart Totals Styling */
+.cart-totals {
+  background-color: #F5F5DC; /* Beige */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.cart-totals-title {
+  font-size: 1.5rem;
+  color: #65451F; /* Dark Green */
+  font-weight: bold;
+}
+
+.cart-subtotal, .cart-total {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #65451F;
+}
+
+.cart-total b {
+  color: #65451F; /* Dark Green */
+}
+
+.quantity {
+  width: 30px; /* Adjust size as needed */
+  height: 30px; /* Adjust size as needed */
+  font-size: 18px; 
+  font-weight: bold;
+}
+
+.quantity-display {
+  margin: 0 5px; /* Spacing around the quantity display */
+  font-weight: bold; /* Makes quantity stand out */
+}
+
+/* Card Styling from Uiverse.io by JAE2Dev */
+.card {
+  /* --background: linear-gradient(to right, #13b37f 0%, #11a3c8 100%); */
+  width: 190px;
+  height: 254px;
+  padding: 0.9px;
+  border-radius: 0.7rem;
+  overflow: visible;
+  background: var(--background);
+  position: relative;
+  z-index: 1;
+}
+
+.card::after {
+  position: absolute;
+  content: "";
+  top: -22px;
+  left: 0px;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  transform: scale(0.76);
+  filter: blur(34.5px);
+  background: var(--background);
+  transition: opacity 0.5s;
+}
+
+.card-info {
+  background: #1f1a1d;
+  color: #1f1a1d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  border-radius: 0.7rem;
+}
+
+.card .title {
+  font-weight: 300; /* Light font weight */
+  letter-spacing: 0.2em;
+  color: #ffffff;
+}
+
+/* Hover Effect */
+.card:hover::after {
+  opacity: 0.6;
+  padding: 0.7rem 0;
+  top: 18px;
+  transition: 0.6s;
+}
+
+.card:hover .card-info {
+  color: #fff9f9;
+  transition: color 1s;
+}
