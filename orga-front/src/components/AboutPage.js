@@ -57,11 +57,10 @@ const About = () => {
       fontSize: '1rem',
       color: '#333',
     },
-  };
-
-  const cardHoverStyle = {
-    transform: 'translateY(-10px)',
-    boxShadow: '0 6px 12px rgba(0, 0, 0, 0.15)',
+    cardHoverStyle: {
+      transform: 'translateY(-10px)',
+      boxShadow: '0 6px 12px rgba(0, 0, 0, 0.15)',
+    },
   };
 
   return (
@@ -78,12 +77,12 @@ const About = () => {
           </Col>
         </Row>
 
-        <Row style={styles.valuesSection}>
-          <Col xs={12} md={4} className="mb-4">
+        <Row style={styles.valuesSection} className="d-flex justify-content-center align-items-center">
+          <Col xs={12} md={4} className="mb-4 d-flex justify-content-center">
             <Card
               style={styles.valueCard}
               className="h-100"
-              onMouseEnter={(e) => Object.assign(e.currentTarget.style, cardHoverStyle)}
+              onMouseEnter={(e) => Object.assign(e.currentTarget.style, styles.cardHoverStyle)}
               onMouseLeave={(e) => Object.assign(e.currentTarget.style, styles.valueCard)}
             >
               <Card.Body>
@@ -95,11 +94,11 @@ const About = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={12} md={4} className="mb-4">
+          <Col xs={12} md={4} className="mb-4 d-flex justify-content-center">
             <Card
               style={styles.valueCard}
               className="h-100"
-              onMouseEnter={(e) => Object.assign(e.currentTarget.style, cardHoverStyle)}
+              onMouseEnter={(e) => Object.assign(e.currentTarget.style, styles.cardHoverStyle)}
               onMouseLeave={(e) => Object.assign(e.currentTarget.style, styles.valueCard)}
             >
               <Card.Body>
@@ -111,11 +110,11 @@ const About = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={12} md={4} className="mb-4">
+          <Col xs={12} md={4} className="mb-4 d-flex justify-content-center">
             <Card
               style={styles.valueCard}
               className="h-100"
-              onMouseEnter={(e) => Object.assign(e.currentTarget.style, cardHoverStyle)}
+              onMouseEnter={(e) => Object.assign(e.currentTarget.style, styles.cardHoverStyle)}
               onMouseLeave={(e) => Object.assign(e.currentTarget.style, styles.valueCard)}
             >
               <Card.Body>
